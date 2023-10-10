@@ -1,0 +1,72 @@
+body {
+    width: 100%;
+    display: grid;
+    place-items: center;
+    text-align: center;
+    /* background-image: linear-gradient(rgba(255, 0, 0, 0.801), rgba(208, 255, 0, 0.842),rgba(2, 255, 44, 0.808)); */
+    background-image: url("https://wallpapercave.com/wp/wp2849299.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+div{
+    background-color: rgba(53, 53, 53, 0.750);
+    border-radius: 10px;
+}
+
+span {
+    font-size: large;
+    font-family: cursive;
+}
+
+h1 {
+    margin-top: 50px;
+    text-align: center;
+    font-family: cursive;
+}
+
+p{
+    font-family: cursive;
+}
+
+label{
+    font-family: cursive;
+    font-size: large;
+}
+
+input-container {
+    margin-bottom: 20px;
+}
+
+textarea {
+    font-family: sans-serif;
+    width: 90%;
+    height: 80px;
+    border-radius: 5px;
+    resize: none;
+}
+
+button {
+    padding: 5px 20px;
+    text-align: center;
+    outline: none;
+    color: #fff;
+    background-color: #0ae60ace;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0 4px #999;
+    font-family: cursive;
+}
+button:hover {
+    background-color: #bdcebe
+}
+button:active {
+    background-color: #0ae60ace;
+    box-shadow: 0 5px #666;
+    transform: translateY(2px);
+} 
+
+.explain{
+    font-style: italic;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
